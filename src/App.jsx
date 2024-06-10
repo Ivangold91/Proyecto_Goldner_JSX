@@ -1,17 +1,15 @@
 import React from "react"
-import NavBarComponent from "./components/NavBarComponent/NavBarComponent"
-import ItemListContainerComponent from "./components/ItemListContainerComponent/ItemListContainerComponent"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import MainRoutes from "./routes/MainRoutes";
 
 
 const App = () => {
  
   return (
     <>
-      <NavBarComponent/>
-      <ItemListContainerComponent greeting="Hola Bienvenidos!"/>
+      <MainRoutes/>
     </>
   )
 }
