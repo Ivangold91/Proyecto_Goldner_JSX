@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const ItemDetailsContainer = (product) => {
+const ItemDetailContainer = ({product}) => {
   return (
     <div>
       <h1>{product.title}</h1>
@@ -11,4 +11,4 @@ const ItemDetailsContainer = (product) => {
   )
 }
 
-export default ItemDetailsContainer
+export default ItemDetailContainer
